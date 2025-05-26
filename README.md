@@ -38,7 +38,7 @@ Returns the current number of blocks in the blockchain.
 1. Deploy the contract.
 2. Call `mineBlock("My First Data")`.
 3. If you get an **out of gas** error:
-   - Reduce the `difficulty` value from `0` to `0` (it’s already low, but you can adjust it before mining future blocks).
+   - Reduce the `difficulty` value from `2` to `0` (it’s already low, but you can adjust it before mining future blocks).
    - Alternatively, increase the **gas limit** manually in Remix.
 
 ## Important Notes
